@@ -16,7 +16,7 @@ import android.view.View;
  * instance of a `ViewClickListener` with the item data that was clicked.
  * This will cast the clicked view to the specified view type.
  *
- * @see com.inkapplications.prism.widget.recyclerview.ViewClickListener
+ * @see com.inkapplications.android.widget.recyclerview.ViewClickListener
  * @param <VIEW> The type of the view that this listner is bound to
  * @param <ITEM> The data type represented in the view
  */

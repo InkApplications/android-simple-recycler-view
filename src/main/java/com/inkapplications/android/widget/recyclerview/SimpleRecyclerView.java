@@ -63,7 +63,7 @@ public class SimpleRecyclerView<VIEW extends View, TYPE> extends RecyclerView
      * This will create the default adapter (ItemAdapter) if none is set as well
      * as a LinearLayoutManager as a default if none is set.
      *
-     * @see com.inkapplications.prism.widget.recyclerview.ItemAdapter
+     * @see com.inkapplications.android.widget.recyclerview.ItemAdapter
      * @param items Items to be displayed in the view
      * @param binder For binding data to the views and creating new instances
      */
