@@ -60,10 +60,10 @@ To attach these, the `SimpleRecyclerView` provides an `init` method that accepts
 the collection and the binder.
 
 ```java
-        this.guestList.init(
-            new ArrayList<Guest>(),
-            new GuestIndexBinder(this.getActivity())
-        );
+this.guestList.init(
+    new ArrayList<Guest>(),
+    new GuestIndexBinder(this.getActivity())
+);
 ```
 
 The initialization method will also assign the view a LayoutManager if none has
