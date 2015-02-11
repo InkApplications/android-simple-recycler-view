@@ -51,9 +51,9 @@ public class ItemAdapter<VIEW extends View, ITEM> extends RecyclerView.Adapter<P
     }
 
     @Override
-    public PointlessViewHolder<VIEW> onCreateViewHolder(ViewGroup viewGroup, int i)
+    public PointlessViewHolder<VIEW> onCreateViewHolder(ViewGroup viewGroup, int viewType)
     {
-        return new PointlessViewHolder<>(this.itemBinder.createView());
+        return new PointlessViewHolder<>(this.itemBinder.createView(viewGroup, viewType));
     }
 
     @Override

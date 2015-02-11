@@ -7,6 +7,7 @@
 package com.inkapplications.android.widget.recyclerview;
 
 import android.view.View;
+import android.view.ViewGroup;
 
 /**
  * Item-View Binder.
@@ -25,9 +26,11 @@ public interface ItemViewBinder<VIEW extends View, ITEM>
      * This should the root view to be displayed for a single item in the list
      * and does not need to be bound to data yet.
      *
+     * @param viewGroup The ViewGroup into which the new View will be added 
+     *                  after it is bound to an adapter position.
      * @return A new instance of the view objects displayed
      */
-    public VIEW createView();
+    public VIEW createView(ViewGroup viewGroup, int viewType);
 
     /**
      * Bind data to view.
