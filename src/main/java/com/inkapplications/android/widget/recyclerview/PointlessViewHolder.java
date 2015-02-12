@@ -26,8 +26,8 @@ final public class PointlessViewHolder<VIEW extends View> extends RecyclerView.V
 {
     /**
      * Don't you wish we could natively store this view instead of making a
-     * pointless class to wrap it every time? Me too. I I guess for now we'll
-     * just keep it here for now.
+     * pointless class to wrap it every time? Me too. I guess for now we'll
+     * just keep it here.
      */
     final private VIEW view;
 
