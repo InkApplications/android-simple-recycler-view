@@ -103,7 +103,7 @@ public class SimpleRecyclerView<VIEW extends View, TYPE> extends RecyclerView
      *
      * @return The item specific adapter instance, if available. Null otherwise
      */
-    final public ItemAdapter<VIEW, TYPE> getItemAdapter()
+    public ItemAdapter<VIEW, TYPE> getItemAdapter()
     {
         return this.adapter;
     }

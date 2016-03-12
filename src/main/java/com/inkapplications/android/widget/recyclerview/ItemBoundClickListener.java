@@ -20,17 +20,17 @@ import android.view.View;
  * @param <VIEW> The type of the view that this listner is bound to
  * @param <ITEM> The data type represented in the view
  */
-final public class ItemBoundClickListener<VIEW extends View, ITEM> implements View.OnClickListener
+public class ItemBoundClickListener<VIEW extends View, ITEM> implements View.OnClickListener
 {
     /**
      * Data item to which this listener is bound, for informing the ViewClickListener.
      */
-    final ITEM item;
+    private ITEM item;
 
     /**
      * Listener to forward notifications to when an item & view have been clicked.
      */
-    final ViewClickListener<VIEW, ITEM> clickListener;
+    private ViewClickListener<VIEW, ITEM> clickListener;
 
     /**
      * @param item Data item to which this listener is bound, for informing the ViewClickListener
